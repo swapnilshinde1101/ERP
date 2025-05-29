@@ -54,7 +54,7 @@ public class AppConfig {
             public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
                 CorsConfiguration cfg = new CorsConfiguration();
                 cfg.setAllowedOrigins(Arrays.asList(
-                    "http://localhost:3000",  // Update frontend URL if hosted elsewhere
+                    "http://localhost:3000",  
                     "http://localhost:8080"
                 ));
                 cfg.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
